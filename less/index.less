@@ -53,7 +53,110 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
+body {
+	font-family: 'Kodchasan'
 }
 
+* {
+	max-width: 700px;
+	margin: auto;
+  }
+  
+  
+  /*body {
+	  min-width: 500px;
+  }*/
+  
+  div {
+	border-radius: 5px;
+  }
+  
+  #header {
+	height: 40px;
+	width: 100%;
+	background-color: #DB7093;
+	position: fixed;
+
+  }
+  
+  #title {
+	margin-left: 3%;
+  }
+  
+  #footer {
+	height: 50px;
+	width: 100%;
+	background-color: #DB7093;
+	clear: both;
+	position: relative;
+  }
+  
+  .left {
+	height: 1000px;
+	width: 45px;
+	background-color: #778899;
+	float: left;
+	position: fixed;
+  }
+  
+  .right {
+	height: 1000px;
+	width: 45px;
+	background-color: #778899;
+	float: right;
+	position: inherit;
+  }
+  
+  .stuff {
+	display: inline-block;
+	margin-top: 6px;
+	margin-left: 55px;
+	width: 75%;
+	height: 1000px;
+  }
+  
+  p,
+  li {
+	font-family: 'Kodchasan';
+	
+  }
+  
+  .head {
+	font-size: 20px;
+  }
+  
+  .nav {
+	border: 2px dotted #DB7093;
+	font-size: 13px;
+	text-align: center;
+	padding: 5px 5%;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  
+  
+  
+  #name {
+	font-family: Sacramento;
+	float: right;
+	margin-top: 10px;
+	margin-right: 4%;
+  }
+  
+  a {
+	color: black;
+	text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+	.left,
+	.right {
+	  display: none;
+	}
+	.stuff {
+	  width: 100%;
+	  margin-left: 10px;
+	}
+
+  }
