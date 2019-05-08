@@ -102,6 +102,10 @@ body {
 	background-color: #778899;
 	float: left;
 	position: fixed;
+
+		@media(max-width: 500px) {
+			display: none;
+		}
   }
   
   .right {
@@ -109,8 +113,12 @@ body {
 	width: 45px;
 	background-color: #778899;
 	float: right;
-  }
-  
+
+ 	 @media(max-width: 500px) { 
+			display: none;
+		}
+	}
+
   .stuff {
 	display: inline-block;
 	margin-top: 6px;
@@ -118,6 +126,11 @@ body {
 	width: 75%;
 	height: 100%;
 	
+ 	 @media(max-width: 500px) {
+			width: 100%;
+			margin-left: 10px;
+		}
+
   }
 	
 	
@@ -146,7 +159,14 @@ h3 {
 	padding: 5px 5%;
 	display: flex;
 	justify-content: space-around;
-  }
+
+  	@media(max-width: 500px) {
+			border: 2px dotted #778899;
+			padding: 0.5rem;
+			margin-bottom: 10px;
+		}
+		}
+
   
   
   
@@ -163,22 +183,4 @@ h3 {
 	color: black;
 	text-decoration: none;
   }
-  
-  @media(max-width: 500px) {
-	.left,
-	.right {
-		display: none;
-	}
-	.stuff {
-	  width: 100%;
-	  margin-left: 10px;
-	}
-
-	.nav {
-		border: 2px dotted #778899;
-		padding: 0.5rem;
-		margin-bottom: 10px;
-	}
-
-	}
 
