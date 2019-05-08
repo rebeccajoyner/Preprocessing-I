@@ -152,6 +152,12 @@ div {
   clear: both;
   position: relative;
 }
+h1 {
+  padding: 5px;
+}
+h2 {
+  padding: 5px;
+}
 .left {
   height: 100%;
   width: 45px;
@@ -213,5 +219,7 @@ a {
   }
   .nav {
     border: 2px dotted #778899;
+    padding: 0.5rem;
+    margin-bottom: 10px;
   }
 }
